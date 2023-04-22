@@ -1,0 +1,80 @@
+.sidebar {
+border-right: 2px solid #bbb;
+}
+.listItems{
+    list-style: none;
+    padding: 100px 0px;
+}
+.sicon{
+    font-size: 25px;
+}
+.listItem{
+    box-shadow: rgba(97, 22, 61, 0.24) 0px 3px 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 21px;
+    font-weight: 600;
+    padding: 10px 0px 10px 10px;
+    color: purple;
+    cursor: pointer;
+}
+.divs{
+    height: 20vh;
+    margin-top: 20vh;
+}
+.divItem{
+
+    padding: 20px 0px;
+    text-align: center;
+    background-color:  #e1e1e1;
+    font-size: 22px;
+    color: purple;
+    cursor: pointer;
+    font-weight: 700;
+    box-shadow: rgba(121, 50, 87, 0.24) 0px 3px 10px;
+    border-radius: 5px;
+    margin: 0px 3px;
+}
+.links{
+	text-decoration: none;
+	background-color: #e1e1e1 !important;
+	color:purple;
+  }
+.links:hover{
+    color: rgb(80, 8, 80);
+}
+.svgs{
+    background-color:  #e1e1e1;
+    }
+.svg{
+    width: 10vw ;
+    height: 10vh;
+    background-color:  #e1e1e1;
+color: purple;
+}
+
+@media (max-width: 1199px) and (min-width: 768px){
+    .listItem{
+        font-size: 16px;
+    }
+    .divItem{
+        font-size: 18px;
+        color: purple;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 767px)
+ { /* small screens */
+    .listItem{
+        font-size: 14px;
+    }
+    .divs{
+        margin-top: 15vh;
+    }
+    .divItem{
+        font-size: 15px;
+        color: purple;
+        font-weight: 600;
+    }
+}

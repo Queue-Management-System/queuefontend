@@ -1,0 +1,95 @@
+$color_1: #fff;
+$color_2: rgb(21, 21, 101);
+$background-color_1: #5A9BD5;
+$background-color_2: #98FC99;
+$background-color_4:#4F7800;
+$background-color_5:#fff;
+
+.cntnr {
+	background-color: $background-color_1;
+	margin-top: -10px;
+	padding-bottom: 60px;
+}
+.wheader {
+	display: flex;
+	justify-content: center;
+	margin: 10px 4%;
+	color: $color_1;
+	
+	h2 {
+		&:first-child {
+			font-weight: bold;
+			margin: auto;
+		}
+	}
+	h5 {
+		&:nth-child(2) {
+			font-weight: bold;
+			padding-top: 15px;
+		}
+	}
+}
+.wpatients {
+	box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+	border-radius: 5px;
+	background-color: $background-color_2;
+	padding: 10px 0px;
+	justify-content: space-evenly;
+}
+.waitingP {
+	margin: 12px 10px;
+	border-radius: 5px;
+	text-align: center;
+	background-color: $background-color_5;
+	cursor: pointer;
+	color: $color_2;
+}
+.wnumber {
+	background-color: $background-color_4;
+	border-radius: 5px;
+	border-bottom: 2px solid rgb(109, 82, 109);
+	color: $color_1;
+	padding: 20px 0px;
+}
+.wnumber h3{
+	font-weight: bold;
+}
+.name {
+	font-weight: bold;
+}
+.sheader {
+	display: flex;
+	justify-content: center;
+	margin: 10px 4%;
+	color: $color_1;
+
+}
+.spatients {
+	box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+	border-radius: 5px;
+	background-color: $background-color_2;
+	padding: 10px 0px;
+	justify-content: space-evenly;
+}
+.servingP {
+	margin: 12px 10px;
+	border-radius: 5px;
+	text-align: center;
+	background-color: $background-color_5;
+	cursor: pointer;
+	color: $color_2;
+}
+.snumber {
+	background-color: $background-color_4;
+	border-radius: 5px;
+	border-bottom: 2px solid rgb(109, 82, 109);
+	color: $color_1;
+	padding: 10px 0px;
+
+}
+.close {
+	font-weight: bold;
+	background-color: rgb(213, 66, 66) !important;
+	font-size: 20px !important;
+	padding: 10px 40px !important;
+}

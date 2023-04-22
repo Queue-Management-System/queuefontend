@@ -1,0 +1,103 @@
+$color_1: white;
+$background-color_1: #964096;
+$background-color_2: #faf9f9;
+$background-color_3: #555;
+
+/* img, svg {
+	color: white !important;
+  } */
+.text-center {
+	background-color: $background-color_1;
+	color: $color_1;
+}
+.barcode{
+	width: 100px;
+}
+.pcontainer {
+	background-color: $background-color_2 !important;
+	box-shadow: none;
+	margin-top: 0;
+	width: 80%;
+	padding-bottom: 30px;
+}
+Form {
+	font-size: 20px !important;
+	font-weight: 600;
+}
+input {
+	font-size: 20px !important;
+	box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+	font-weight: 500 !important;
+}
+select {
+	font-size: 19px !important;
+	font-weight: 500 !important;
+	box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px !important;
+}
+.pbtn {
+	height: 50px;
+	font-size: 20px !important;
+	font-weight: 500 !important;
+	background-color: $background-color_1 !important;
+	border: none !important;
+	width: 100%;
+}
+.check {
+	box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+	font-size: 16px;
+	height: 30px;
+}
+.time {
+	color: $color_1;
+	background-color: $background-color_3;
+	border-radius: 5px;
+	height: 40px;
+}
+@media (min-width: 1200px) {
+	Form {
+		font-size: 24px;
+	}
+}
+@media (max-width: 1199px) and (min-width: 768px) {
+	.text-center {
+		font-size: 32px !important;
+	}
+	Form {
+		font-size: 18px !important;
+	}
+	input {
+		font-size: 18px !important;
+	}
+	.pbtn {
+		font-size: 15px !important;
+		width: 100% !important;
+	}
+	.check {
+		font-size: 14px;
+	}
+}
+@media (max-width: 767px) {
+	.text-center {
+		font-size: 22px !important;
+	}
+	.Form {
+		font-size: 15px;
+	}
+	input {
+		font-size: 15px !important;
+	}
+	select {
+		font-size: 15px !important;
+	}
+	.check {
+		font-size: 10px;
+	}
+	.pbtn {
+		font-size: 11px !important;
+		width: 100%;
+		height: 40px;
+	}
+	.time {
+		height: 30px;
+	}
+}
